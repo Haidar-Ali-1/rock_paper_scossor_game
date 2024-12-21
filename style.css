@@ -1,15 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: center; 
 }
-h1{
-    background-color: black;
-    color: aliceblue;
+.main{
+    background-color: rgb(249, 171, 171);
+    width: 100%;
+    height: 89vh;
+}
+.header{
+    background-color: rgb(37, 37, 37);
+    color: rgb(205, 242, 132);
     height: 5rem;
     line-height: 5rem;
 }
 .choice{
+    background-color: rgb(149, 149, 244);
+    margin-top: 10px;
     height: 165px;
     width: 165px;
     border-radius: 50%;
@@ -20,7 +27,7 @@ h1{
 }
 .choice:hover{
     cursor: pointer;
-    background-color: black;
+    background-color: rgb(50, 47, 47);
 }
 img {
     height: 150px;
@@ -29,13 +36,10 @@ img {
     border-radius: 50%;
 }
 .choices{
-    display: flex;
-    justify-items:center;
-    align-items:center ;
+    display: inline-flex;
     gap: 5rem;
-    padding-left: 450px;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 .scorebord{
     display: flex;
